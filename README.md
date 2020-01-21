@@ -9,12 +9,10 @@ This project is focused on Web Scrapping and Natural Language Processing. Severa
 ### Submission Components
 
 Two Jupyter Notebooks:
-- **1. Data Extraction**: Uses Python to pull 1,000 reddit posts from the Fox News and MSNBC subreddits. 
+- **1. Data Extraction**: Uses Python to pull 1,000 reddit posts from the 'USA' and 'Europe' subreddits. 
 - **2. Data Cleaning and EDA**: Uses Python to clean, manipulate, analyze, and visualize the reddit posts.
 
 Underlying data in CSV form.
-
-PowerPoint showing use case scenario as well as an overview of findings and analysis.
 
 README
 
@@ -22,7 +20,7 @@ README
 
 ### Problem Statement
 
-Reddit is a website with a tremendous amount of data. In order to make it easier to handle, the website is divided into multiple subreddits, which contain posts focused on an individual topic.
+Reddit is a website with a tremendous amount of text based data. In order to make it easier to handle, the website is divided into multiple subreddits, which contain posts focused on an individual topic.
 
 The objective of this project is to make it easier to filter out reddit posts into their appropriate subreddits based on the text in the title and body of the posts. 
 
@@ -62,8 +60,8 @@ Several different models and methodologies were experimented with in order to de
 
 ### Conclusion and Recommendations 
 
-It is possible to predict the source of an individual post with a fair degree of accuracy. In fact, when using the Logistic Regression model, Training data showed a **XXXXX** average R2-Score, while Testing Data showed a **XXXXX** average R2-Score.
+It is possible to predict the source of an individual post with a fair degree of accuracy. In fact, when using the Logistic Regression model, Training data showed a **0.99** average R2-Score, while Testing Data showed a **0.85** average R2-Score.
 
-While using the Naive Bayes Classification, the R2-Scores went down on the Training Data, however, the gap between the Training and Testing data shrunk significantly (a classic example of the Bias-Variance tradeoff.
+While using the Naive Bayes Classification, the R2-Scores went down on the Training Data, however, the gap between the Training and Testing data shrunk significantly (a classic example of the Bias-Variance tradeoff).
 
 Each model has pros and cons, and it is impossible to select a 'best' one for all use-cases. In order to get the best results, a model should be manually selected for each individual analysis.
