@@ -11,6 +11,7 @@ This project is focused on Web Scrapping and Natural Language Processing. Severa
 **Natural Language Processing - Reddit.ipynb**: Jupyter Notebook. Contains all code relevent to the project.
 
 **EUROPE_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit. 
+
 **USA_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit.
 
 README
