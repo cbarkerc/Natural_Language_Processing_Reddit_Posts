@@ -2,19 +2,20 @@
 
 ### Description
 
-This project is focused on Web Scrapping and Natural Language Processing. Several hundred reddit posts were pulled from two distinct subreddits. Natural Language Processing was used to analyze the component text of the subreddits in order to create a model that would be able to distinguish which subreddit the post came from based exclusively on the text in each post. The model was created so that any two subreddits could be used.
+This project is focused on Web Scrapping and Natural Language Processing. Several hundred Reddit posts were pulled from two distinct subreddits. Natural Language Processing was used to analyze the component text of the subreddits in order to create a model that would be able to distinguish which subreddit the post came from based exclusively on the text in each post. The model was created so that any two subreddits could be used.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ### Submission Components
 
-Two Jupyter Notebooks:
-- **1. Data Extraction**: Uses Python to pull 1,000 reddit posts from the 'USA' and 'Europe' subreddits. 
-- **2. Data Cleaning and EDA**: Uses Python to clean, manipulate, analyze, and visualize the reddit posts.
+**Natural Language Processing - Reddit.ipynb**: Jupyter Notebook. Contains all code relevent to the project.
 
-Underlying data in CSV form.
+**EUROPE_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit. 
+**USA_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit.
 
 README
+
+Requirements.txt
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -44,7 +45,7 @@ The initial Web Scrapping of the Reddit website was done using the Reddit PRAW A
 
 **Data Manipulation and Model Construction**
 
-After being extracted, the data was cleaned, standardized, and manipulated in such a way that it could be easily interpreted by Python code and various predicictive models.
+After being extracted, the data was cleaned, standardized, and manipulated in such a way that it could be easily interpreted by Python code and various models.
 
 Several different models and methodologies were experimented with in order to determine the most accurate way of predicting the subreddit of each individual post. 
 
@@ -58,10 +59,6 @@ Several different models and methodologies were experimented with in order to de
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-### Conclusion and Recommendations 
+### Conclusion 
 
-It is possible to predict the source of an individual post with a fair degree of accuracy. In fact, when using the Logistic Regression model, Training data showed a **0.99** average R2-Score, while Testing Data showed a **0.85** average R2-Score.
-
-While using the Naive Bayes Classification, the R2-Scores went down on the Training Data, however, the gap between the Training and Testing data shrunk significantly (a classic example of the Bias-Variance tradeoff).
-
-Each model has pros and cons, and it is impossible to select a 'best' one for all use-cases. In order to get the best results, a model should be manually selected for each individual analysis.
+It is possible to predict the source of an individual post with a fair degree of accuracy. In fact, when using the Logistic Regression model, Training data showed a **1.00** average R2-Score, while Testing Data showed a **0.85** average R2-Score.
