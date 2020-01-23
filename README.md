@@ -14,7 +14,7 @@ This project is focused on Web Scrapping and Natural Language Processing. Severa
 
 **USA_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit.
 
-README
+README.md
 
 Requirements.txt
 
