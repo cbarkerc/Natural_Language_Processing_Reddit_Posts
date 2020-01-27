@@ -14,6 +14,8 @@ This project is focused on Web Scrapping and Natural Language Processing. Severa
 
 **USA_Reddit_Posts.csv**: CSV file. Contains data extracted from Reddit.
 
+**Natural Language Processing - Reddit.pdf**: PDF providing insight into Natural Language Processing and the underlying code.
+
 README.md
 
 Requirements.txt
